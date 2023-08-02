@@ -38,7 +38,8 @@
 
 ## Database Structure ##
 
-Tables:
+### Tables: ###
+
     Songs:
     - id
     - title
