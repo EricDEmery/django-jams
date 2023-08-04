@@ -12,17 +12,17 @@ class ArtistsSerializer(serializers.ModelSerializer):
         model = Artists
         fields = "__all__"
 
-class AlbumsSerializer(serialezers.ModelSerializer):
+class AlbumsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Albums
         fields = "__all__"
 
-class GenresSerializer(serialezers.ModelSerializer):
+class GenresSerializer(serializers.ModelSerializer):
     class Meta:
         model = Genres
         fields = "__all__"
 
-class UsersSerializer(serialezers.ModelSerializer):
+class UsersSerializer(serialezirs.ModelSerializer):
     class Meta:
         model = Users
         fields = "__all__"
