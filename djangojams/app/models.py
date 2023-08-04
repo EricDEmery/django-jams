@@ -6,7 +6,7 @@ class Songs(models.Model):
     title = models.Charfield(max_length=200)
     artist = models.ManyToManyField('Artists')
     album = models.Charfield(max_length=200)
-    genre = models.Charfield(max_length=200)
+    genre = models.ManytoManyfield('Genres')
 
     def __str__(self):
         return self.title
