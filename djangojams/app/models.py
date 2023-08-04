@@ -19,3 +19,12 @@ class Artists(models.Model):
 
 class Albums(models.Model):
     label = models.Charfield(max_length=200)
+
+    def __str__(self):
+        return self.label
+
+class Genres(models.Model):
+    label = models.Charfield(max_length=200)
+
+    def __str__(self):
+        return self.label
